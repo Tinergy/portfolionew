@@ -16,11 +16,13 @@
 
     <head >
         <title>Zhi Xian's Portfolio & Works</title>
+    </head>
+    <body>
         <div class="sticky-top navbarstyle" style="padding: 0.5rem; background-color: #E9DAC1;">
-            <nav id="menu" class="navbar nav-underline sticky-top navbar-expand-lg bg-body-tetiary d-flex justify-content-center">
+            <nav id="menu" class="navbar nav-underline sticky-top navbar-expand-md bg-body-tetiary d-flex justify-content-center">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="index.html">
-                        <img style="height: 5rem; border-radius: 50%;" src="assets/TwitchPic2.jpg">
+                        <img style="height: 4rem; border-radius: 50%;" src="assets/TwitchPic2.jpg">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -28,24 +30,27 @@
                     <div class="collapse navbar-collapse justify-content-center" id="navbarCenteredExample">
                       <ul  class="navbar-nav mb-lg-0 navbar-nav-scroll justify-content-center gap-3">
                           <li class="nav-item">
-                          <a class="nav-link active" data-menuanchor="firstPage" style="color:#54BAB9;" aria-current="page" href="#firstPage">About me</a>
+                          <a class="nav-link" data-menuanchor="firstPage" style="color:#54BAB9;" aria-current="page" href="#firstPage">About me</a>
                           </li>
                           <li class="nav-item">
                           </li>
                           <li class="nav-item">
-                          <a class="nav-link" data-menuanchor="secondPage" style="color:#54BAB9;" href="#secondPage">Projects</a>
+                          <a class="nav-link" data-menuanchor="secondPage" style="color:#54BAB9;" href="#secondPage">Experience</a>
                           </li>
                           <li class="nav-item">
-                          <a class="nav-link" style="color:#54BAB9;" href="#thirdPage">Socials</a> 
+                            <a class="nav-link" style="color:#54BAB9;" href="#thirdPage">Projects</a> 
+                            </li>
+                          <li class="nav-item">
+                          <a class="nav-link" style="color:#54BAB9;" href="#fourthPage">Socials</a> 
                           </li>
-                          <li class="nav-item dropdown">
+                          <!--<li class="nav-item dropdown">
                           <a class="nav-link dropdown-toggle" style="color:#54BAB9;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               More
                           </a>
                           <ul class="dropdown-menu">
                               <li><a class="dropdown-item" href="#"></a></li>
-                              <!--<li><hr class="dropdown-divider"></li>-->
-                          </ul>
+                              <li><hr class="dropdown-divider"></li>
+                          </ul>-->
                           </li>
                           <li class="nav-item">
                             
@@ -56,8 +61,6 @@
                 </div>
             </nav>
           </div>
-    </head>
-    <body>
         <div id="fullpage">
             <div class="section">
                 <div style="text-align: center; padding-top: 50px; font-size: 20px; font-family:serif, sans-serif;">
@@ -80,18 +83,71 @@
                     </div>
                 </div>
             </div>
-            <div id="Works" class="section">
-                Works
+            <div id="Experience" class="section">
+                <h2 class="headers" style="text-align: center; padding-bottom: 4rem;">Skills / Experiences</h2>
+                <div class="row" style=" text-align: center; padding: 1rem;">
+                    <div class="col-sm-4 mb-3 mb-sm-0">
+                      <div class="card text-center">
+                        <img src="./assets/computer.jpeg" class="card-img-top" alt="work" style="display: block; height: auto; width: auto;" >
+                        <div class="card-header">
+                          <h5>ST Engineering Mission Software & Services Pte Ltd</h5>
+                          <h5>
+                            Software Engineer
+                            <br></br>
+                            (June 2021 - September 2023)
+                          </h5>
+                        </div>
+                        <div class="card-body">
+                          <p class="card-text" >
+                            <ul style="text-align: left;">
+                              <li>Conduct troubleshooting and fault analysis for critical systems</li>
+                              <li>Appointed System Administrator role for projects that ensured security and operational of computer systems</li>
+                              <li>Participated in development project that encompass a software and hardware solution to customer</li>
+                            </ul>
+                          </p>  
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4 mb-3 mb-sm-0">
+                      <div class="card text-center">
+                        <img src="#" class="card-img-top" alt="java">
+                        <div class="card-header">
+                          <h5 class="card-title" style="padding: 1rem;">Programming languages</h5>
+                        </div>
+                        <div class="card-body">
+                          <p class="card-text">
+                            Over the years, I have acquired knowledge in various programming languages to enhance my capabilities as a programmer. 
+                            The most recent language that I have learnt is Java due to the requirements of my work and have applied the knowledge to build a system log analyzer application.
+                            Below are the programming languages that I have some knowledge in:
+                          </p>
+                          <ul class="justify-content-center" style="text-align: center; padding: 0; margin: 0; list-style-type: none; font-size: large;">
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>HTML / CSS</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4 mb-3 mb-sm-0">
+                        <div class="card text-center">
+                          <div class="card-body">
+                            <h5 class="card-title" style="padding: 1rem;"></h5>
+                            <p class="card-text">
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                </div>
             </div>
-            <div id="Contact" class="section">Some section</div>
             <div class="section">
-                <div class="justify-content-right" style="text-align: right;">
+                <div class="p-5" style="text-align: center;">
+                    <h3>Check out my socials for some of my projects / designs</h3>
+                </div>
+                <div class="justify-content-center" style="text-align: center; font-size: xx-large;">
                     <script src="https://kit.fontawesome.com/9be781cdfd.js" crossorigin="anonymous"></script>
-                    <a href="#"><i class="fa-brands fa-facebook icon"></i></a>
-                    <a href="#"><i class="fa fa-instagram icon"></i></a>
-                    <a href="https://wa.me/" class="float" target="_blank" rel="noopener noreferrer"> 
-                      <i class="fa-brands fa-whatsapp icon"></i> 
-                    </a>
+                    <a href="#"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                    <a href="#"><i class="fa-brands fa-github fa-lg"></i></a>
                   </div>
             </div>
             <ul id="menu">
