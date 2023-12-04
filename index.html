@@ -18,7 +18,7 @@
     </head>
     <body>
         <div class="sticky-top navbarstyle" style="padding: 0.5rem; background-color: #E9DAC1; box-shadow: 1px 1px 20px 2px rgb(60, 60, 61);">
-            <nav id="menu" class="navbar nav-underline sticky-top navbar-expand-md bg-body-tetiary d-flex justify-content-between">
+            <nav id="menu" class="navbar nav-underline sticky-top navbar-expand-md bg-body-tetiary d-flex justify-content-center ">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="index.html">
                         <img style="height: 4rem; border-radius: 50%; box-shadow: 1px 1px 3px 1px #181811;" src="assets/TwitchPic2.jpg">
@@ -27,7 +27,7 @@
                     <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse justify-content-center" id="navbarCenteredExample">
-                      <ul  class="navbar-nav mb-lg-0 navbar-nav-scroll justify-content-center gap-3">
+                      <ul  class="navbar-nav mb-lg-0 navbar-nav-scroll justify-content-center gap-4">
                           <li class="nav-item">
                           <a class="nav-link" data-menuanchor="firstPage" style="color:#54BAB9;" aria-current="page" href="#firstPage">About me</a>
                           </li>
@@ -54,7 +54,7 @@
                     <!--To add selfie-->
                     <img style="width: 15%; border-radius: 50%; box-shadow: 5px 5px 20px 5px #535352;" src="assets/profile.jpeg" class="justify-content-center">
                     <h1 class="" style="padding-top: 50px; padding-bottom: 20px;">
-                        <b>Hello! My name is Zhi Xian</b>
+                        <b>Hello! My name is <span class="">Zhi Xian</span> </b>
                     </h1>
                     <div id="description">
                       <p>
@@ -156,8 +156,6 @@
                 scrollHorizontally: true,
                 anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'lastPage'],
                 menu: '#myMenu',
-
-                //Design
                 paddingBottom: '10px',
                 
             });

@@ -35,16 +35,6 @@ body {
     padding-bottom: 5rem;
 }
 
-#header {
-  background-color: #E9DAC1; 
-  padding: 10px;
-}
-
-#menu{
-  max-width: 1200px;
-
-}
-
 .navitem {
   text-decoration-color: #9ED2C6;
 }
